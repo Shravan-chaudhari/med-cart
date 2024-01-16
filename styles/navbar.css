@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.Navbar {
+  background-color: #060606;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Navigation {
+  width: 90vw;
+  border-bottom: 1px solid rgb(191, 191, 191);
+}
+.Navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tittle p {
+  font-size: 40px;
+  color: #ff6f61;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  padding-right: 40px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(244, 244, 244);
+  padding: 2px;
+  height: 40px;
+  border-radius: 5px;
+}
+.search input::placeholder {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.search input {
+  width: 40vw;
+  height: 35px;
+  border-style: none;
+  background-color: rgb(244, 244, 244);
+}
+.searchbtn {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(244, 244, 244);
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 14px;
+  border-left: 2px solid black;
+}
+.searchIcon {
+  font-size: large;
+}
+.login {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(244, 244, 244);
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.login p {
+  padding: 10px;
+}
+ul {
+  list-style: none;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(244, 244, 244);
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 14px;
+}
+.cartIcon {
+  font-size: large;
+}
+.tagline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
